@@ -30,7 +30,11 @@ li{
     width: 100%;
     height: 200px;
     background: linear-gradient(orange, red,black);
-    vertical-align: bottom;
     
     
+    
+}
+
+#bottomGradient.absolute{
+    position: absolute;
 }
