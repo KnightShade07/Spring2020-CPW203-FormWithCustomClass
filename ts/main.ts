@@ -120,7 +120,7 @@ function displayGame(myGame: VideoGame): void {
     let gameInfo = document.createElement("p");
     let gameMediumDisplay = "";
     if(myGame.isDigitalOnly){
-        gameMediumDisplay = "This is a digital only game";
+        gameMediumDisplay = "This is a digital only game.";
 
     }
     else{
