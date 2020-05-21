@@ -1,11 +1,27 @@
-#grad{
-    background-image: linear-gradient(grey,red);
+input[type=text]{
+    padding: .4em;
 }
 
-#body{
+label{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+body{
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-image: linear-gradient(grey,red);
 }
-
+h1{
+    text-align: center;
+}
+input[type=checkbox], input[type=button]{
+    margin-left: 50%;
+    
+    
+}
+li{
+    text-align: center;
+}
