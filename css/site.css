@@ -24,6 +24,7 @@ body{
 }
 h1{
     text-align: center;
+    font-size: 10vw;
 }
  input[type=button]{
     margin-left: 50%;
@@ -33,12 +34,14 @@ h1{
 
 li{
     text-align: center;
+    font-size: 10vw;
 }
 .online{
     text-align: center; 
 }
 #display{
     text-align: center;
+    font-size: 10vw;
 }
 
 
