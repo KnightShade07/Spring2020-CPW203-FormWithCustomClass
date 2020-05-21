@@ -9,8 +9,11 @@
 
     <h1>Add Video Game</h1>
 
-    <div id="validation-summary">
-        <p>Errors go here...</p>
+    <div>
+        <ul id="validation-summary">
+
+        </ul>
+        
     </div>
     
     <form>
@@ -24,11 +27,11 @@
 
         <label for="rating">Rating:</label>
         <select id="rating">
-            <option>Please Choose a rating</option>
-            <option>E</option>
-            <option>E10+</option>
-            <option>T</option>
-            <option>M</option>
+            <option value="">Please Choose a rating</option>
+            <option value="E">E - Everyone</option>
+            <option value="E10+">E10+ - Everyone 10 and Up</option>
+            <option value="T">T for Teen</option>
+            <option value="M">M for Mature</option>
         </select>
         <br>
 
