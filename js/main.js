@@ -74,7 +74,7 @@ function displayGame(myGame) {
     else {
         gameMediumDisplay = "You can come buy a physical copy!";
     }
-    gameInfo.innerText = myGame.title + " has a rating of " + myGame.rating + ".\n    it costs $" + myGame.price.toFixed(2) + ". " + gameMediumDisplay;
+    gameInfo.innerText = myGame.title + " has a rating of " + myGame.rating + ".\n    It costs $" + myGame.price.toFixed(2) + ". " + gameMediumDisplay;
     displayDiv.appendChild(gameHeading);
     displayDiv.appendChild(gameInfo);
 }

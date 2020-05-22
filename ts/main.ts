@@ -129,7 +129,7 @@ function displayGame(myGame: VideoGame): void {
     
 
     gameInfo.innerText = `${myGame.title} has a rating of ${myGame.rating}.
-    it costs $${myGame.price.toFixed(2)}. ${gameMediumDisplay}`;
+    It costs $${myGame.price.toFixed(2)}. ${gameMediumDisplay}`;
 
     //add <h2> in the div display
     displayDiv.appendChild(gameHeading);
