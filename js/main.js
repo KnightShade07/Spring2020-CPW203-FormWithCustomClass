@@ -26,7 +26,7 @@ function isAllDataValid() {
     var title = getInputById("title").value;
     if (title == "") {
         isValid = false;
-        addErrorMessage("Title is required");
+        addErrorMessage("Title is required!");
     }
     var price = getInputById("price").value;
     var priceValue = parseFloat(price);
@@ -69,7 +69,7 @@ function displayGame(myGame) {
     var gameInfo = document.createElement("p");
     var gameMediumDisplay = "";
     if (myGame.isDigitalOnly) {
-        gameMediumDisplay = "This is a digital only game";
+        gameMediumDisplay = "This is a digital only game.";
     }
     else {
         gameMediumDisplay = "You can come buy a physical copy!";

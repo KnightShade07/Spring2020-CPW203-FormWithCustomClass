@@ -46,7 +46,7 @@ function isAllDataValid(){
     let title = getInputById("title").value;
     if(title == "") {
         isValid = false;
-        addErrorMessage("Title is required");
+        addErrorMessage("Title is required!");
     }
 
     let price = getInputById("price").value;
