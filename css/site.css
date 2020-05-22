@@ -14,6 +14,7 @@ label{
     width: 50%;
     display: inline-block;
     text-align: right;
+    
 }
 body{
     height: 100%;
@@ -21,6 +22,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: linear-gradient(grey,red);
+    text-shadow: 2px 2px white;/* NOTE: If you apply a text shadow in the body CSS,
+    it applies it to every piece of text in the body*/
 }
 h1{
     text-align: center;
