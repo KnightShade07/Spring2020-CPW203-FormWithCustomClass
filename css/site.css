@@ -24,7 +24,7 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 5vw; /*If you want the  reactive text to be smaller, just change font size*/
+    
 }
  input[type=button]{
     margin-left: 50%;
@@ -34,18 +34,15 @@ h1{
 
 li{
     text-align: center;
-    font-size: 3vw; 
+    
 }
 .online{
     text-align: center; 
 }
 #display{
     text-align: center;
-    font-size: 3vw;
+    
 }
-
-
-
 
 
 #bottomGradient{
@@ -55,6 +52,35 @@ li{
     position: fixed;
     
 }
-#bottomGradText{
-    align-content: center;
-} 
+/*when the screen is small*/
+@media screen and (max-width: 500px) {
+    h1 {
+      font-size: 100px;
+    }
+    #display{
+        font-size: 50px;
+    }
+    label{
+        font-size: 50px;
+    }
+    
+  }
+  /*when the screen is full sized*/
+  @media screen and ( min-width: 1024px) {
+    h1 {
+      font-size: 200px;
+    }
+    #display{
+        font-size: 100px;
+    }
+    label{
+        font-size: 100px;
+    }
+    #validation-summary{
+        font-size: 150;
+    }
+
+    
+  }
+
+
