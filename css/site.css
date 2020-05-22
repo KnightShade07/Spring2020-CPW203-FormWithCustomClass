@@ -62,6 +62,25 @@ li{
     }
     
   }
+
+  /*when the screen is medium sized*/
+  @media screen and ( min-width: 630px) {
+    h1 {
+      font-size: 200px;
+    }
+    #display{
+        font-size: 100px;
+    }
+    label{
+        font-size: 100px;
+    }
+    #validation-summary{
+        font-size: 100px;
+    }
+
+    
+  }
+
   /*when the screen is full sized*/
   @media screen and ( min-width: 1024px) {
     h1 {
